@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	font-size: 60px;
+	font-family: adobe-handwriting-ernie,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center
+}
+body{
+	background-image:url("Hexagonal-paper.jpg");
+	background-size:500px;
+}
+nav{
+	text-align: center;
+	width: 100%;
+	background-color:#FFFFFF
+}
+nav ul{
+	Margin:20;
+	padding:20px;
+}
+nav li{
+	display: inline;
+}
+nav a:link{
+	color:#176035
+}
+#wrapper{
+	width:800px;
+	margin:0 auto;
+	background-color:#F7A192;
+}
+article.right{
+	padding:20px;
+	margin:20px;
+}
+article.left{
+	float:left;
+	width: 400px;
+	padding:20px;
+	margin:20px;
+	align-content: center;
+}
+footer{
+	background-color: #FCFCFC;
+	color:#F7A192;
+}
